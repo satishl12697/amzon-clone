@@ -36,6 +36,18 @@ function Header() {
         <SearchIcon className="header__searchIcon" />
       </div>
 
+      {/* flag */}
+
+      <div>
+        <Link to="/">
+          <img
+            className="header__flag"
+            src="https://upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/1200px-Flag_of_India.svg.png"
+            alt="Flag Image"
+          />
+        </Link>
+      </div>
+
       {/* 3 Links */}
 
       <div className="header__nav">

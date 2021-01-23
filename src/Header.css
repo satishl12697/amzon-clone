@@ -68,3 +68,15 @@
   height: 22px !important;
   background-color: #cd9042;
 }
+
+.header__searchIcon:hover {
+  background-color: #f3a847;
+  cursor: pointer;
+}
+
+.header__flag {
+  width: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 5px;
+}

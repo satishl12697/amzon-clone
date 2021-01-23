@@ -7,6 +7,8 @@ import Checkout from "./Checkout";
 import Login from "./Login";
 import { useStateValue } from "./StateProvider";
 import { auth } from "./firebase";
+import Footer from "./Footer";
+import Slides from "./Slides";
 
 function App() {
   const [{ user }, dispatch] = useStateValue();
@@ -54,7 +56,9 @@ function App() {
           {/* this is the default route */}
           <Route path="/">
             <Header />
+            <Slides />
             <Home />
+            <Footer />
           </Route>
         </Switch>
       </div>
