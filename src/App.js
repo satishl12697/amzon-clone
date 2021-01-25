@@ -9,6 +9,8 @@ import { useStateValue } from "./StateProvider";
 import { auth } from "./firebase";
 import Footer from "./Footer";
 import Slides from "./Slides";
+import HeaderNav from "./HeaderNav";
+import Bestsellers from "./Bestsellers";
 
 function App() {
   const [{ user }, dispatch] = useStateValue();
@@ -53,9 +55,15 @@ function App() {
           <Route path="/login">
             <Login />
           </Route>
+          <Route path="/Bestsellers">
+            <Header />
+            <HeaderNav />
+            <Bestsellers />
+          </Route>
           {/* this is the default route */}
           <Route path="/">
             <Header />
+            <HeaderNav />
             <Slides />
             <Home />
             <Footer />

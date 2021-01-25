@@ -1,0 +1,44 @@
+.Bestsellers {
+  margin-left: auto;
+  margin-right: auto;
+
+  /* max-width: 1200px; */
+  /* max-width: 1500px; */
+}
+
+.banner {
+  background-color: #0a98ad;
+}
+.banner__heading {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  font-size: 61px;
+  font-weight: 500;
+}
+.banner__text {
+  padding-bottom: 20px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+.Bestsellers_row {
+  display: flex;
+  z-index: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.Bestsellers_image {
+  width: 100%;
+  /* rgba(0, 0, 0, 1) 1 is opacity for rgba */
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  z-index: -1;
+  margin-bottom: -150px;
+}

@@ -1,0 +1,43 @@
+.headernav {
+  background-color: #232f3e;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  line-height: 2.5;
+  top: 58px;
+  z-index: 100;
+}
+
+.header_nav {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.header_option {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.header_optionLineOne {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.header_link {
+  color: white;
+  text-decoration: none;
+}
+
+.header_optionmenu {
+  display: flex;
+  align-items: center;
+}
+
+.header_text {
+  margin-left: 10px;
+  margin-right: 10px;
+}
