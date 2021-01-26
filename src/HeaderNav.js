@@ -24,13 +24,13 @@ function HeaderNav() {
           </div>
         </Link>
         {/* 2nd Link */}
-        <Link to="/" className="header_link">
+        <Link to="/Todaysdeals" className="header_link">
           <div className="header_option">
             <span className="header_optionLineOne">Today's Deals</span>
           </div>
         </Link>
         {/* 3rd Link */}
-        <Link to="/" className="header_link">
+        <Link to="/Mobiles" className="header_link">
           <div className="header_option">
             <span className="header_optionLineOne">Mobiles</span>
           </div>

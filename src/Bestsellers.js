@@ -82,7 +82,7 @@ function Bestsellers() {
           Roll over image to zoom in
           Callas Metal Mesh Desk Organizer, Black LD 708-05"
           price={349.98}
-          rating={4}
+          rating={5}
           image="https://images-eu.ssl-images-amazon.com/images/I/81f5kIpOFkL._AC_UL200_SR200,200_.jpg"
         />
 
@@ -90,7 +90,7 @@ function Bestsellers() {
           id="90829331"
           title="The Man Company Black EDT | Long Lasting | 50 ML"
           price={499.5}
-          rating={4}
+          rating={5}
           image="https://images-eu.ssl-images-amazon.com/images/I/519kpPJ1gcL._AC_UL200_SR200,200_.jpg"
         />
       </div>

@@ -11,6 +11,8 @@ import Footer from "./Footer";
 import Slides from "./Slides";
 import HeaderNav from "./HeaderNav";
 import Bestsellers from "./Bestsellers";
+import Todaysdeals from "./Todaysdeals";
+import Mobiles from "./Mobiles";
 
 function App() {
   const [{ user }, dispatch] = useStateValue();
@@ -59,7 +61,24 @@ function App() {
             <Header />
             <HeaderNav />
             <Bestsellers />
+            <Footer />
           </Route>
+
+          <Route path="/Todaysdeals">
+            <Header />
+            <HeaderNav />
+            <Todaysdeals />
+            <Footer />
+          </Route>
+
+          <Route path="/Mobiles">
+            <Header />
+            <HeaderNav />
+
+            <Mobiles />
+            <Footer />
+          </Route>
+
           {/* this is the default route */}
           <Route path="/">
             <Header />
