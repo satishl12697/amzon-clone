@@ -37,13 +37,13 @@ function HeaderNav() {
         </Link>
 
         {/* 4th Link */}
-        <Link to="/checkout" className="header_link">
+        <Link to="/Fashion" className="header_link">
           <div className="header_option">
             <span className="header_optionLineOne">Fashion</span>
           </div>
         </Link>
 
-        <Link to="/checkout" className="header_link">
+        <Link to="/Electronics" className="header_link">
           <div className="header_option">
             <span className="header_optionLineOne"> Electronics </span>
           </div>

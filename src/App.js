@@ -13,6 +13,8 @@ import HeaderNav from "./HeaderNav";
 import Bestsellers from "./Bestsellers";
 import Todaysdeals from "./Todaysdeals";
 import Mobiles from "./Mobiles";
+import Fashion from "./Fashion";
+import Electronics from "./Electronics";
 
 function App() {
   const [{ user }, dispatch] = useStateValue();
@@ -74,8 +76,21 @@ function App() {
           <Route path="/Mobiles">
             <Header />
             <HeaderNav />
-
             <Mobiles />
+            <Footer />
+          </Route>
+
+          <Route path="/Fashion">
+            <Header />
+            <HeaderNav />
+            <Fashion />
+            <Footer />
+          </Route>
+
+          <Route path="/Electronics">
+            <Header />
+            <HeaderNav />
+            <Electronics />
             <Footer />
           </Route>
 
